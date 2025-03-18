@@ -4,4 +4,4 @@ Official Code for: Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu
 ## Preview of SAGE
 ---
 
-![preview](assets/workflow.png)
+![preview](assets/workflow.jpg)
