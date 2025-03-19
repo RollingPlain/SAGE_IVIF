@@ -4,7 +4,7 @@ Official Code for: Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu
 ## Preview of SAGE
 ---
 
-![preview](assets/fig1.pdf)
+![preview](assets/fig1.png)
 ## Set Up on Your Own Machine
 
 ### Virtual Environment
