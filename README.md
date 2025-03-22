@@ -50,3 +50,15 @@ python test.py
 # Train: Please prepare the custom data and save resluts to result
 python train.py
 ```
+## Citation
+
+If this work has been helpful to you, please feel free to cite our paper!
+
+```
+@inproceedings{wu2025sage,
+  title={Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond},
+  author={Wu, Guanyao and Liu, Haoyu and Fu, Hongming and Peng, Yichuan and Liu, Jinyuan and Fan, Xin and Liu, Risheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025}
+}
+```
