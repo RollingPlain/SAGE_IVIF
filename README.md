@@ -36,7 +36,7 @@ SAGE ROOT
 |   └── ...
 ```
 ### Test / Train
-This code natively supports the same naming for infrared and visible image pairs. An naming example can be found in **./data/M3FD** folder.
+This code natively supports the same naming for infrared and visible image pairs. An naming example can be found in **./test/M3FD** folder.
 ```shell
 # Test: use given example and save fused color images to result/M3FD
 # If you want to test the custom data, please modify the file path in 'test.py'
