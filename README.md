@@ -43,6 +43,9 @@ SAGE ROOT
 ```
 ### Test / Train
 This code natively supports the same naming for infrared and visible image pairs. An naming example can be found in **./test/M3FD** folder.
+Before training, you need to download the following pre-trained models:
+1. Download [*SAM（VIT-B）*](https://github.com/facebookresearch/segment-anything) pre-trained model and place it in the SAM folder.
+2. Download [*Xdecoder(Focal-L last checkpoint)*](https://github.com/microsoft/X-Decoder/tree/main) pre-trained model and place it in the xdecoder folder.
 ```shell
 # Test: use given example and save fused color images to result/M3FD
 # If you want to test the custom data, please modify the file path in 'test.py'
