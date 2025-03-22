@@ -25,7 +25,7 @@ You should put the data in the correct place in the following form.
 
 ```
 SAGE ROOT
-├── data
+├── test
 |   ├── M3FD
 |   |   ├── Ir # infrared images
 |   |   └── Vis # visible images
