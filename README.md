@@ -47,4 +47,7 @@ This code natively supports the same naming for infrared and visible image pairs
 # Test: use given example and save fused color images to result/M3FD
 # If you want to test the custom data, please modify the file path in 'test.py'
 python test.py
-
+# Train: 
+# Please prepare the custom data
+python train.py
+```
