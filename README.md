@@ -57,7 +57,7 @@ python train.py
 
 If you have any other questions about the code, please open an issue in this repository or email us at  `lhy1415291484@gmail.com`.
 
-If you have any other questions, please email `rollingplainko@gmail.com`.
+If you still have any other questions, please email `rollingplainko@gmail.com`.
 
 ## Citation
 
