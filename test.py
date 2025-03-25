@@ -17,8 +17,8 @@ from tqdm import tqdm
 
 parser = argparse.ArgumentParser("ruas")
 parser.add_argument('--checkpoint', type=str, default='./checkpoints/checkpoints.pt', help='location of the checkpoint')
-parser.add_argument('--img_dir', type=str, default='./test/M3FD', help='path to save results')
-parser.add_argument('--save_path', type=str, default='./result/M3FD', help='path to save results')
+parser.add_argument('--img_dir', type=str, default='./data/test', help='path to save results')
+parser.add_argument('--save_path', type=str, default='./result/test', help='path to save results')
 parser.add_argument('--seed', type=int, default=2, help='random seed')
 
 args = parser.parse_args()
