@@ -1,4 +1,4 @@
-# SAGE 🔥
+# 🔥 SAGE 
 
 <div align="center">
 
@@ -13,6 +13,15 @@ Official Code for: **"Every SAM Drop Counts: Embracing Semantic Priors for Multi
 *Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu*  
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025
 - [*[Google Scholar]*](https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=Every+SAM+Drop+Counts%3A+Embracing+Semantic+Priors+for+Multi-Modality+Image+Fusion+and+Beyond&btnG=)
+- [*[ArXiv]*](https://arxiv.org/abs/2503.01210)
+
+## 📚 Further Reading
+For a comprehensive overview of the infrared and visible image fusion (IVIF) field, please refer to our latest survey paper:
+
+**"Infrared and Visible Image Fusion: From Data Compatibility to Task Adaption"**
+- [[Paper](https://ieeexplore.ieee.org/abstract/document/10812907)] [[GitHub](https://github.com/RollingPlain/IVIF_ZOO)]
+
+This survey provides a systematic review of IVIF methods, evaluation metrics, datasets, and applications, which can help you better understand the context and significance of our SAGE framework.
 
 ## 📝 Citation
 
@@ -25,6 +34,18 @@ If our work has been helpful to you, please feel free to cite our paper:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025}
 }
+```
+If you find our survey on IVIF helpful, please consider citing:
+```bibtex
+@article{liu2025infrared,
+ title={Infrared and Visible Image Fusion: From Data Compatibility to Task Adaption},
+ author={Liu, Jinyuan and Wu, Guanyao and Liu, Zhu and Wang, Di and Jiang, Zhiying and Ma, Long and Zhong, Wei and Fan, Xin and Liu, Risheng},
+ journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+ year={2025},
+ volume={47},
+ number={4},
+ pages={2349-2369}
+ }
 ```
 
 ## 🌟 Preview of SAGE
