@@ -1,11 +1,37 @@
-# SAGE
-Official Code for: _Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu*_,**“Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond” CVPR 2025**.
+# SAGE 🔥
+
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-CVPR2025-green)](https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=Every+SAM+Drop+Counts%3A+Embracing+Semantic+Priors+for+Multi-Modality+Image+Fusion+and+Beyond&btnG=)
+[![GitHub Stars](https://img.shields.io/github/stars/RollingPlain/SAGE_IVIF?style=social)](https://github.com/RollingPlain/SAGE_IVIF)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-ee4c2c.svg)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+Official Code for: **"Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond"**  
+*Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu*  
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025
 - [*[Google Scholar]*](https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=Every+SAM+Drop+Counts%3A+Embracing+Semantic+Priors+for+Multi-Modality+Image+Fusion+and+Beyond&btnG=)
-## Preview of SAGE
----
+
+## 📝 Citation
+
+If our work has been helpful to you, please feel free to cite our paper:
+
+```bibtex
+@inproceedings{wu2025sage,
+  title={Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond},
+  author={Wu, Guanyao and Liu, Haoyu and Fu, Hongming and Peng, Yichuan and Liu, Jinyuan and Fan, Xin and Liu, Risheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025}
+}
+```
+
+## 🌟  Preview of SAGE
+
 
 ![preview](assets/fig1.png)
-## Set Up on Your Own Machine
+## 🚀  Set Up on Your Own Machine
 
 ### Virtual Environment
 
@@ -62,15 +88,4 @@ If you have any other questions about the code, please open an issue in this rep
 
 If you still have any other questions, please email `rollingplainko@gmail.com`.
 
-## Citation
 
-If this work has been helpful to you, please feel free to cite our paper!
-
-```
-@inproceedings{wu2025sage,
-  title={Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond},
-  author={Wu, Guanyao and Liu, Haoyu and Fu, Hongming and Peng, Yichuan and Liu, Jinyuan and Fan, Xin and Liu, Risheng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2025}
-}
-```
