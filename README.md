@@ -10,7 +10,7 @@
 </div>
 
 Official Code for: **"Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond"**  
-*Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu\*  
+*Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu\**  
 **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025**
 - [*[Google Scholar]*](https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=Every+SAM+Drop+Counts%3A+Embracing+Semantic+Priors+for+Multi-Modality+Image+Fusion+and+Beyond&btnG=)
 - [*[ArXiv]*](https://arxiv.org/abs/2503.01210)
