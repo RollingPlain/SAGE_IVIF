@@ -30,7 +30,7 @@ If our work has been helpful to you, please feel free to cite our paper:
 ## 🌟 Preview of SAGE
 
 <div align="center">
-  <img src="assets/fig.jpg" alt="Comparative Approaches" width="100%">
+  <img src="assets/fig1.jpg" alt="Comparative Approaches" width="100%">
 </div>
 
 *__Figure 1:__ Differences between the proposed method and existing mainstream comparative approaches: **(a)** Traditional and early DL-based methods focus on the fusion visual effect. **(b)** Task-specific methods (e.g., TarDAL & SegMiF) introduce task loss and features that lead to inconsistent optimization goals, causing a conflict between visual and task accuracy. **(c)** Our pipeline first leverages semantic priors from SAM within a large network and then distills the knowledge into a smaller sub-network achieving practical inference feasibility while ensuring "the best of both worlds" through SAM's inherent adaptability to these tasks.*
