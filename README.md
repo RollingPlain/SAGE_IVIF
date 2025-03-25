@@ -108,7 +108,8 @@ python test.py
 **1. Pretrained models**
 
 Before training, you need to download the following pre-trained models:
-Download [*SAM（VIT-B）*](https://github.com/facebookresearch/segment-anything) and [*Xdecoder(Focal-L last)*](https://github.com/microsoft/X-Decoder/tree/main) pre-trained model and place it in the  ``./SAM/`` and  ``./xdecoder/`` folder respectively.
+
+Download [*SAM(VIT-B)*](https://github.com/facebookresearch/segment-anything) and [*Xdecoder(Focal-L last)*](https://github.com/microsoft/X-Decoder/tree/main) pre-trained model and place it in the  ``./SAM/`` and  ``./xdecoder/`` folder respectively.
 
 **2. Data Preparation**
 
