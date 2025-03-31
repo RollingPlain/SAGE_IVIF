@@ -42,8 +42,8 @@ def set_sys_args():
     sys.argv = [
         'infer_semseg.py',
         'evaluate',
-        '--conf_files', '/mnt/disk3/CVPR/SAM/X-Decoder-2.0/configs/xdecoder/xdecoder_focall_lang.yaml',
-        '--overrides', 'RESUME_FROM', '/mnt/disk3/CVPR/MM24/Teacher2/xdecoder/xdecoder_focall_last.pt'
+        '--conf_files', './configs/xdecoder/xdecoder_focall_lang.yaml',
+        '--overrides', 'RESUME_FROM', './xdecoder_focall_last.pt'
     ]
 
 def segment(image: Image.Image, model=None, transform=None):
@@ -57,7 +57,7 @@ def segment(image: Image.Image, model=None, transform=None):
     # 设置 device 为 cuda 或 cpu
     opt['device'] = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-    local_tokenizer_path = '/mnt/disk3/CVPR/MM24/Teacher2/xdecoder/local_clip_model'
+    local_tokenizer_path = './local_clip_model'
     if 'MODEL' not in opt:
         opt['MODEL'] = {}
     if 'TEXT' not in opt['MODEL']:
@@ -65,7 +65,7 @@ def segment(image: Image.Image, model=None, transform=None):
     opt['MODEL']['TEXT']['TOKENIZER'] = 'clip'
     opt['MODEL']['TEXT']['PRETRAINED_TOKENIZER'] = local_tokenizer_path
 
-    pretrained_pth = '/mnt/disk3/CVPR/MM24/Teacher2/xdecoder/xdecoder_focall_last.pt'
+    pretrained_pth = './xdecoder_focall_last.pt'
     model = BaseModel(opt, build_model(opt)).from_pretrained(pretrained_pth).eval().to(opt['device'])
 
     t = [transforms.Resize(512, interpolation=Image.BICUBIC)]
