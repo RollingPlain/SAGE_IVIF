@@ -168,7 +168,7 @@ def train(model_teacher, model_student, optimizer_teacher, optimizer_student, sc
 		total_grad_loss_student = 0
 		total_train_loss_student = 0
 		total_contrast_loss_student = 0
-		total_DHs_student = [0] * 5
+		total_DHs_student = [0] * 2
 
 		losses = Losses()
 
