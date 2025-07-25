@@ -13,7 +13,6 @@ Official Code for: **"Every SAM Drop Counts: Embracing Semantic Priors for Multi
 *Guanyao Wu, Haoyu Liu, Hongming Fu, Yichuan Peng, Jinyuan Liu, Xin Fan, Risheng Liu\**  
 **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025**
 - [*[Google Scholar]*](https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=Every+SAM+Drop+Counts%3A+Embracing+Semantic+Priors+for+Multi-Modality+Image+Fusion+and+Beyond&btnG=)
-- [*[ArXiv]*](https://arxiv.org/abs/2503.01210)
 
 ## 📚 Further Reading
 For a comprehensive overview of the IVIF field, please refer to our recent survey paper published in **IEEE TPAMI**:
@@ -28,10 +27,11 @@ This survey provides a systematic review of IVIF methods, evaluation metrics, da
 If our work has been helpful to you, please feel free to cite our paper:
 
 ```bibtex
-@inproceedings{wu2025sage,
+@inproceedings{wu2025every,
   title={Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond},
   author={Wu, Guanyao and Liu, Haoyu and Fu, Hongming and Peng, Yichuan and Liu, Jinyuan and Fan, Xin and Liu, Risheng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={17882--17891},
   year={2025}
 }
 ```
